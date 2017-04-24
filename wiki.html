@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiki Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> 
+	
+	<!-- FontAwesome -->
+	<script src="https://use.fontawesome.com/e0643bcca9.js"></script>
+
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="wikiStyle.css">
+
+
+</head>
+<body>
+<div class="flexWrapper"  >
+ <div class="flexItem">
+  <i class="fa fa-search" id="brand">Wikipedia</i>
+  </div>
+  <div class=flexItem><a href="https://en.wikipedia.org/wiki/Special:Random" id="random" target="_blank">Click here for a random article</a></div>
+  <div class=flexItem> 
+    
+    <p class="searchWrapper"><input class="searchBox" placeholder="Search Wikipedia"/></p>  
+  </div>
+  <div class="flexItem">
+      <ul class="list">
+        
+    
+      </ul>
+  
+  </div>
+</div>
+
+<!-- Jquery CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Main app JavaScript -->
+<script type="text/javascript" src="wiki.js"></script>
+</body>
+</html>
