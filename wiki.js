@@ -1,10 +1,7 @@
-// Define a new module for our app. The array holds the names of dependencies if any.
-
 function Wiki(title, content, href) {
   this.title = title;
   this.content = content;
   this.href = href;
-
 }
 
 function displayWiki(wikiObjArray) {
